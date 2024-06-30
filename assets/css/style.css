@@ -1,0 +1,129 @@
+/* assets/css/style.css */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8f7;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar {
+    background: #00796b;
+  }
+  
+  .navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: white !important;
+  }
+  
+  .navbar-nav .nav-link {
+    color: white !important;
+  }
+  
+  .hero-section {
+    background: url('assets/images/hero-background.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: white;
+    text-align: center;
+  }
+  
+  .hero-section h1 {
+    font-size: 48px;
+    font-weight: bold;
+  }
+  
+  .hero-section p {
+    font-size: 24px;
+  }
+  
+  .btn-primary {
+    background-color: #00796b;
+    border: none;
+    padding: 12px 24px;
+    font-size: 18px;
+  }
+  
+  .features-section {
+    padding: 60px 0;
+    background: #ffffff;
+  }
+  
+  .features-section .card {
+    border: none;
+    transition: transform 0.3s;
+    border-radius: 10px;
+  }
+  
+  .features-section .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .features-section .card .card-body {
+    text-align: center;
+  }
+  
+  .testimonials-section {
+    padding: 60px 0;
+    background: #00796b;
+    color: white;
+  }
+  
+  .testimonials-section .carousel-item {
+    text-align: center;
+  }
+  
+  .testimonials-section .carousel-item img {
+    border-radius: 50%;
+    margin-bottom: 20px;
+    width: 100px;
+  }
+  
+  .faq-section {
+    padding: 60px 0;
+    background: #f0f8f7;
+  }
+  
+  .faq-section .accordion-button {
+    background: #00796b;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  .stats-section {
+    padding: 60px 0;
+    background: #ffffff;
+    color: #00796b;
+  }
+  
+  .stats-section .stat {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .stats-section .stat h3 {
+    font-size: 3rem;
+  }
+  
+  .contact-section {
+    padding: 60px 0;
+    background: #00796b;
+    color: white;
+  }
+  
+  .contact-section form .form-control {
+    margin-bottom: 20px;
+    border-radius: 10px;
+  }
+  
+  footer {
+    background: #004d40;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
